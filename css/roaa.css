@@ -1,1 +1,12 @@
+@font-face {
+  font-family: 'VCR_OSD_MONO';
+  src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
 
+h1 {
+  font-family: 'VCR_OSD_MONO';
+}
+
+a {
+  font-family: 'VCR_OSD_MONO';
+}
