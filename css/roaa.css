@@ -1,12 +1,54 @@
 @font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-family: "LEMONMILK-Regular";
+  src: url("fonts/LEMONMILK-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-Medium";
+  src: url("fonts/LEMONMILK-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-MediumItalic";
+  src: url("fonts/LEMONMILK-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-Light";
+  src: url("fonts/LEMONMILK-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-LightItalic";
+  src: url("fonts/LEMONMILK-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-Bold";
+  src: url("fonts/LEMONMILK-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-BoldItalic";
+  src: url("fonts/LEMONMILK-BoldItalic.otf") format("opentype");
 }
 
 h1 {
-  font-family: 'VCR_OSD_MONO';
+  font-family: "LEMONMILK-Regular";
 }
 
 a {
-  font-family: 'VCR_OSD_MONO';
+  font-family: "LEMONMILK-Regular";
+}
+
+p {
+  font-family: "LEMONMILK-Light";
+}
+
+.italic {
+  font-family: "LEMONMILK-LightItalic";
+}
+
+.bold {
+  font-family: "LEMONMILK-Bold";
 }
