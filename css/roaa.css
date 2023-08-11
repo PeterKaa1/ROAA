@@ -1,42 +1,60 @@
 @font-face {
   font-family: "LEMONMILK-Regular";
-  src: url("fonts/LEMONMILK-Regular.otf") format("opentype");
+  src: url("fonts/LEMONMILK-Regular.ttf") format("truetype"),
+    url("fonts/LEMONMILK-Regular.otf") format("opentype"),
+    url("fonts/LEMONMILK-Regular.woff2") format("woff2"),
+    url("fonts/LEMONMILK-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "LEMONMILK-Medium";
-  src: url("fonts/LEMONMILK-Medium.otf") format("opentype");
+  src: url("fonts/LEMONMILK-Medium.ttf") format("truetype"),
+    url("fonts/LEMONMILK-Medium.otf") format("opentype"),
+    url("fonts/LEMONMILK-Medium.woff2") format("woff2"),
+    url("fonts/LEMONMILK-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "LEMONMILK-MediumItalic";
-  src: url("fonts/LEMONMILK-MediumItalic.otf") format("opentype");
+  src: url("fonts/LEMONMILK-MediumItalic.ttf") format("truetype"),
+    url("fonts/LEMONMILK-MediumItalic.otf") format("opentype"),
+    url("fonts/LEMONMILK-MediumItalic.woff2") format("woff2"),
+    url("fonts/LEMONMILK-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "LEMONMILK-Light";
-  src: url("fonts/LEMONMILK-Light.otf") format("opentype");
+  src: url("fonts/LEMONMILK-Light.ttf") format("truetype"),
+    url("fonts/LEMONMILK-Light.otf") format("opentype"),
+    url("fonts/LEMONMILK-Light.woff2") format("woff2"),
+    url("fonts/LEMONMILK-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: "LEMONMILK-LightItalic";
-  src: url("fonts/LEMONMILK-LightItalic.otf") format("opentype");
+  src: url("fonts/LEMONMILK-LightItalic.ttf") format("truetype"),
+    url("fonts/LEMONMILK-LightItalic.otf") format("opentype"),
+    url("fonts/LEMONMILK-LightItalic.woff2") format("woff2"),
+    url("fonts/LEMONMILK-LightItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "LEMONMILK-Bold";
-  src: url("fonts/LEMONMILK-Bold.otf") format("opentype");
+  src: url("fonts/LEMONMILK-Bold.ttf") format("truetype"),
+    url("fonts/LEMONMILK-Bold.otf") format("opentype"),
+    url("fonts/LEMONMILK-Bold.woff2") format("woff2"),
+    url("fonts/LEMONMILK-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "LEMONMILK-BoldItalic";
-  src: url("fonts/LEMONMILK-BoldItalic.otf") format("opentype");
+  src: url("fonts/LEMONMILK-BoldItalic.ttf") format("truetype"),
+    url("fonts/LEMONMILK-BoldItalic.otf") format("opentype"),
+    url("fonts/LEMONMILK-BoldItalic.woff2") format("woff2"),
+    url("fonts/LEMONMILK-BoldItalic.woff") format("woff");
 }
 
-h1 {
-  font-family: "LEMONMILK-Regular";
-}
-
+h1,
 a {
   font-family: "LEMONMILK-Regular";
 }
