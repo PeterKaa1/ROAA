@@ -70,3 +70,8 @@ p {
 .bold {
   font-family: "LEMONMILK-Bold";
 }
+
+body {
+  background-image: url("background/Fire_1080x1920px_notext.jpg"),
+    url("background/Fire_1080x1920px_notext.png");
+}
