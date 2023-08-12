@@ -54,13 +54,12 @@
     url("fonts/LEMONMILK-BoldItalic.woff") format("woff");
 }
 
-h1,
 a {
-  font-family: "LEMONMILK-Regular";
+  font-family: "LEMONMILK-Light";
 }
 
 p {
-  font-family: "LEMONMILK-Light";
+  font-family: "LEMONMILK-Medium";
 }
 
 .italic {
@@ -70,8 +69,3 @@ p {
 .bold {
   font-family: "LEMONMILK-Bold";
 }
-
-/* body {
-  background-image: url("background/Fire_1080x1920px_notext.jpg"),
-    url("background/Fire_1080x1920px_notext.png");
-} */
