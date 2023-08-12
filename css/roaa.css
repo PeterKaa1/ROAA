@@ -69,3 +69,17 @@ p {
 .bold {
   font-family: "LEMONMILK-Bold";
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  font-family: "LEMONMILK-Medium";
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 2.5px orange;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
