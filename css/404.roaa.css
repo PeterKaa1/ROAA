@@ -34,3 +34,13 @@ body {
   text-align: center;
   white-space: pre-line;
 }
+
+.homepage {
+  text-decoration: none;
+  color: white;
+  background-color: #4285f4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "LEMONMILK-Medium";
+  border: solid 2.5px orange;
+}
