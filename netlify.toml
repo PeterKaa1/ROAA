@@ -22,6 +22,3 @@
   from = "/504.html"
   to = "/504.html"
   status = 504
-  
-[build]
-  base = "maintenance"
