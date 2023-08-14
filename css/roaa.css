@@ -60,17 +60,20 @@ a {
 
 p {
   font-family: "LEMONMILK-Medium";
+  text-align: center;
 }
 
 .italic {
   font-family: "LEMONMILK-LightItalic";
+  text-align: center;
 }
 
 .bold {
   font-family: "LEMONMILK-Bold";
+  text-align: center;
 }
 
-.button {
+button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #3498db;
@@ -82,4 +85,8 @@ p {
   border: solid 2.5px orange;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
+}
+
+.container {
+  text-align: center;
 }
