@@ -1,3 +1,4 @@
+/* Regular font face. */
 @font-face {
   font-family: "LEMONMILK-Regular";
   src: url("fonts/LEMONMILK-Regular.ttf") format("truetype"),
@@ -6,6 +7,7 @@
     url("fonts/LEMONMILK-Regular.woff") format("woff");
 }
 
+/* Medium font face. */
 @font-face {
   font-family: "LEMONMILK-Medium";
   src: url("fonts/LEMONMILK-Medium.ttf") format("truetype"),
@@ -14,6 +16,7 @@
     url("fonts/LEMONMILK-Medium.woff") format("woff");
 }
 
+/* Medium Italic font face. */
 @font-face {
   font-family: "LEMONMILK-MediumItalic";
   src: url("fonts/LEMONMILK-MediumItalic.ttf") format("truetype"),
@@ -22,6 +25,7 @@
     url("fonts/LEMONMILK-MediumItalic.woff") format("woff");
 }
 
+/* Light font face. */
 @font-face {
   font-family: "LEMONMILK-Light";
   src: url("fonts/LEMONMILK-Light.ttf") format("truetype"),
@@ -30,6 +34,7 @@
     url("fonts/LEMONMILK-Light.woff") format("woff");
 }
 
+/* Light Italic font face. */
 @font-face {
   font-family: "LEMONMILK-LightItalic";
   src: url("fonts/LEMONMILK-LightItalic.ttf") format("truetype"),
@@ -38,6 +43,7 @@
     url("fonts/LEMONMILK-LightItalic.woff") format("woff");
 }
 
+/* Bold font face. */
 @font-face {
   font-family: "LEMONMILK-Bold";
   src: url("fonts/LEMONMILK-Bold.ttf") format("truetype"),
@@ -46,6 +52,7 @@
     url("fonts/LEMONMILK-Bold.woff") format("woff");
 }
 
+/* Bold Italic font face. */
 @font-face {
   font-family: "LEMONMILK-BoldItalic";
   src: url("fonts/LEMONMILK-BoldItalic.ttf") format("truetype"),
@@ -54,25 +61,30 @@
     url("fonts/LEMONMILK-BoldItalic.woff") format("woff");
 }
 
+/* Styling for anchor elements. */
 a {
   font-family: "LEMONMILK-Light";
 }
 
+/* Styling for paragraph elements. */
 p {
   font-family: "LEMONMILK-Medium";
   text-align: center;
 }
 
+/* Styling for elements with the class "italic". */
 .italic {
   font-family: "LEMONMILK-LightItalic";
   text-align: center;
 }
 
+/* Styling for elements with the class "bold". */
 .bold {
   font-family: "LEMONMILK-Bold";
   text-align: center;
 }
 
+/* Styling for button elements. */
 button {
   display: inline-block;
   padding: 10px 20px;
@@ -87,6 +99,7 @@ button {
   margin-bottom: 2.5px;
 }
 
+/* Styling for elements in the "container" class. */
 .container {
   text-align: center;
 }
