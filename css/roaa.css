@@ -97,6 +97,13 @@ button {
   border: solid 2.5px orange;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Scale down and then revert on button click. */
+button:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease-in-out;
 }
 
 /* Styling for elements in the "container" class. */
